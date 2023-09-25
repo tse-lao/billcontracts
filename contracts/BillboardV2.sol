@@ -112,7 +112,7 @@ contract BillboardAdSpace is ERC721Enumerable, ReentrancyGuard {
             owner: msg.sender,
             adContent: "",
             pendingContent: "",
-            price: price, 
+            price: price
         });
         
         //need to emit an evenet here 
